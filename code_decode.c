@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 int h1, h2, h3, h4, h5, h6, h7, c1, c2, c4, b1, b2, b3, b0;
 int hamming[7];
 int a,b,c;
@@ -113,5 +114,6 @@ void main()
 
     printf("hamming code is-->%d%d%d%d%d%d%d \n", h1, h2, h3, h4, h5, h6, h7);
     error();
+    getch();
     
 }
